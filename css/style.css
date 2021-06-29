@@ -183,7 +183,7 @@
 
 
 .btn{
-    padding: 8px 18px;
+    padding: 8px 19px;
     margin: 7px 3px;
     border: 2px solid white;
     border-radius: 100px;
@@ -194,7 +194,7 @@
 }
 
 .btn:hover{
-    padding: 8px 18px;
+    padding: 8px 19px;
     margin: 7px 3px;
     border: 2px solid gray;
     border-radius: 100px;
@@ -202,6 +202,10 @@
     background: none;
     color: gray;
     cursor: pointer;
+}
+
+.buttons a{
+    text-decoration: none;
 }
 .btn-sm{
     padding: 0px 5px;
@@ -216,11 +220,12 @@
 
 }
 .bbtn-sm{
+    height: 40px;
     vertical-align: middle;
     padding: 0px 4px;
     border: 3px solid black;
-    border-radius: 100px;
-    font-size: 15px;
+    border-radius: 10px;
+    font-size: 18px;
     background: none;
     color:black;
     cursor: pointer;
@@ -228,10 +233,10 @@
 }
 .bbtn-sm:hover{
     vertical-align: middle;
-    padding: 0px 5px;
-    border: 3px solid black;
-    border-radius: 100px;
-    font-size: 15px;
+    padding: 0px 4px;
+    border: 3px solid gray;
+    border-radius: 12px;
+    font-size: 18px;
     background: none;
     color:gray;
     cursor: pointer;
@@ -359,8 +364,10 @@
 }
 
 .rightNa input{
+    font-size: 18px;
+    height: 35px;
     width: 200px;
-    border:3px solid rgb(92, 76, 76);
+    border:3px solid black;
     border-radius:7px;
     padding : 0px 5px;
     
@@ -375,6 +382,14 @@
         height: 300px;
         flex-direction: column;
         transition: all 0.7s ease-out;
+    }
+    .rightNa input{
+        font-size: 17px;
+        height: 30px;
+        width: 200px;
+        border:3px solid black;
+        border-radius:7px;
+        padding : 0px 5px;
     }
     .logo img{
         width:60%;
@@ -436,6 +451,29 @@
     .bbtn-sm{
         margin:10px;
     }
+    .bbtn-sm{
+        height: 36px;
+        vertical-align: middle;
+        padding: 0px 4px;
+        border: 3px solid black;
+        border-radius: 10px;
+        font-size: 15px;
+        background: none;
+        color:black;
+        cursor: pointer;
+    
+    }
+    .bbtn-sm:hover{
+        vertical-align: middle;
+        padding: 0px 4px;
+        border: 3px solid gray;
+        border-radius: 12px;
+        font-size: 15px;
+        background: none;
+        color:gray;
+        cursor: pointer;
+    
+    }
 }
 
 
@@ -447,7 +485,9 @@
         border-radius: 30px;
     }
     .rightNa input{
-        width:100px;
+        font-size: 15px;
+        height: 16px;
+        width: 100px;
         border:3px solid black;
         border-radius:7px;
         padding : 0px 5px;
@@ -457,6 +497,29 @@
         height: 180px;
         flex-direction: column;
         transition: all 0.7s ease-out;
+    }
+    .bbtn-sm{
+        height: 23px;
+        vertical-align: middle;
+        padding: 0px 4px;
+        border: 3px solid black;
+        border-radius: 6px;
+        font-size: 15px;
+        background: none;
+        color:black;
+        cursor: pointer;
+    
+    }
+    .bbtn-sm:hover{
+        vertical-align: middle;
+        padding: 0px 4px;
+        border: 3px solid gray;
+        border-radius: 5px;
+        font-size: 15px;
+        background: none;
+        color:gray;
+        cursor: pointer;
+    
     }
 
 }
@@ -533,6 +596,13 @@
 
 
 @media only screen and (max-width:175px){
+    .secondHalf img{
+        margin-top:100px;
+        width:100px;
+        border: 2px solid black;
+        border-radius: 150px;
+        align-items: center;
+    }
     .rightNa input{
         width:30px;
         border:3px solid black;
@@ -575,6 +645,9 @@
         background-color:black;
         height:100vh;
     }
+    .firstSection{
+        height: 105vh
+    }
     
 }
 
@@ -584,6 +657,9 @@
         background-color:black;
         height:125vh;
     }
+    .firstSection{
+        height: 115vh
+    }
     
 }
 @media only screen and (max-height:392px){
@@ -592,44 +668,15 @@
         background-color:black;
         height:150vh;
     }
-    .secondHalf img{
-        margin-top:100px;
-        width:170px;
-        border: 2px solid black;
-        border-radius: 150px;
-        align-items: center;
-    }
-    .text-big{
-        font-size: 20px;
-    }
-    .text-small{
-        font-size: 16px;
-    }
-    .btn{
-        padding: 3px 6px;
-        margin: 7px 3px;
-        border: 2px solid whitesmoke;
-        border-radius: 100px;
-        font-size: 14px;
-        background: none;
-        color: white;
-        cursor: pointer;
-    }
-    .btn:hover{
-            padding: 2px 5px;
-            margin: 7px 3px;
-            border: 1px solid gray;
-            border-radius: 100px;
-            font-size: 14px;
-            background: none;
-            color: gray;
-            cursor: pointer;
-    }
+    
     .rightNa input{
             width:50px;
             border:3px solid black;
             border-radius:7px;
             padding : 0px 5px;
+    }
+    .firstSection{
+        height: 140vh
     }
     
 }
@@ -678,6 +725,9 @@
             border-radius:7px;
             padding : 0px 5px;
     }
+    .firstSection{
+        height: 150vh
+    }
 }
 
 @media only screen and (max-height:272px){
@@ -710,6 +760,9 @@
         background-color:black;
         height:250vh;
     }
+    .firstSection{
+        height: 125vh
+    }
     
 }
 @media only screen and (max-height:195px){
@@ -718,6 +771,28 @@
         background-color:black;
         height:320vh;
     }
+    .firstSection{
+        height: 145vh
+    }
     
 }
-
+@media only screen and (max-height:165px){
+    .contact{
+        font-size: 28px;
+        background-color:black;
+        height:400vh;
+    }
+    .firstSection{
+        height: 185vh
+    }
+}
+@media only screen and (max-height:132px){
+    .contact{
+        font-size: 28px;
+        background-color:black;
+        height:800vh;
+    }
+    .firstSection{
+        height: 355vh
+    }
+}
