@@ -1,0 +1,723 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width:26%;
+    border:2px solid white;
+    border-radius: 80px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+
+.nav-list{
+    width: 70%;
+    display:flex;
+    align-items:center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 12px 35px;
+}
+
+.nav-list li a{
+    font-size: 18px;
+    text-decoration:none;
+    color:white;
+}
+
+.nav-list li a:hover{
+    text-decoration:none;
+    color:gray;
+}
+
+
+.rightNav{
+    width: 30%;
+    text-align:right;
+}
+
+
+.rightNa{
+    width:150%;
+    text-align: center;
+}
+
+#Serach{
+    padding:5px;
+    font-size: 16px;
+    border:2px solid black;
+    border-radius:9px;
+}
+
+.background{
+    background:rgb(0,0,0,0.7)url('../img/5.jpg');
+    background-size:cover;
+    background-blend-mode: darken;
+}
+
+
+.navb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    cursor: pointer;
+}
+
+
+.na{
+    display:flex;
+    align-items:center;
+}
+
+.na li{
+    list-style: none;
+    padding: 12px 35px;
+}
+
+
+.na li a{
+    font-size: 18px;
+    text-decoration:none;
+    color:white;
+}
+
+.na li a:hover{
+    text-decoration:none;
+    color:gray;
+}
+.background2{
+    background:black URL(../img/8.jpeg);
+    background-size:cover;
+    background-blend-mode: darken;
+}
+
+.firstSection{
+    height: 100vh
+}
+
+.box-main{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family:'segoe UI',Verdana, Geneva, Tahoma, sans-serif;
+    max-width:50%;
+    margin:auto;
+    height: 80%;
+}
+
+.firstHalf{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.secondHalf img{
+    margin-top:100px;
+    width:250px;
+    border: 5px solid black;
+    border-radius: 150px;
+    align-items: center;
+}
+
+
+.text-big{
+    text-align: center;
+    font-size: 34px;
+}
+
+.text-small{
+    text-align: center;
+    font-size:22px;
+}
+
+.btns{
+    padding: 8px 18px;
+    margin: 7px 3px;
+    border: 2px solid black;
+    border-radius: 100px;
+    font-size: 21px;
+    background: none;
+    color: black;
+    cursor: pointer;
+}
+
+.btns:hover{
+    padding: 8px 18px;
+    margin: 7px 3px;
+    border: 2px solid gray;
+    border-radius: 100px;
+    font-size: 17px;
+    background: none;
+    color: gray;
+    cursor: pointer;
+}
+
+.buttons{
+    text-align: center;
+}
+
+
+.btn{
+    padding: 8px 18px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 100px;
+    font-size: 21px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    padding: 8px 18px;
+    margin: 7px 3px;
+    border: 2px solid gray;
+    border-radius: 100px;
+    font-size: 17px;
+    background: none;
+    color: gray;
+    cursor: pointer;
+}
+.btn-sm{
+    padding: 0px 5px;
+    font-size:14px;
+    vertical-align: middle;
+}
+
+.btn-sm:hover{
+    padding: 0px 5px;
+    font-size:14px;
+    vertical-align: middle;
+
+}
+.bbtn-sm{
+    vertical-align: middle;
+    padding: 0px 4px;
+    border: 3px solid black;
+    border-radius: 100px;
+    font-size: 15px;
+    background: none;
+    color:black;
+    cursor: pointer;
+
+}
+.bbtn-sm:hover{
+    vertical-align: middle;
+    padding: 0px 5px;
+    border: 3px solid black;
+    border-radius: 100px;
+    font-size: 15px;
+    background: none;
+    color:gray;
+    cursor: pointer;
+
+}
+
+
+
+
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    flex-direction: column-reverse;
+
+}
+
+.section-left{
+    flex-direction: row-reverse;
+}
+
+.para{
+    padding-top: 10px;
+
+}
+.paras{
+    color:rgb(121, 9, 111)
+
+}
+.thumbnil img{
+    width: 500px;
+    border: 4px solid black;
+    border-radius: 30px;
+}
+
+
+
+
+
+.contact{
+    font-size: 28px;
+    background-color:black;
+    height:93vh;
+}
+
+.text-center{
+    padding-top:10px;
+    text-align: center;
+    color: white
+}
+
+.form{
+    max-width:70%;
+    margin: 30px auto;
+}
+
+.form input{
+    margin: 15px 0;
+    width: 100%;
+    font-size: 18px;
+    border-radius:6px;
+}
+
+.form textarea{
+    margin: 10px 0;
+    width: 100%;
+    font-size: 16px;
+    border-radius:6px;
+}
+
+.bt{
+    padding: 8px 18px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 100px;
+    font-size: 20px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.bt:hover{
+    padding: 8px 18px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 100px;
+    font-size: 20px;
+    background: none;
+    color: gray
+}
+
+
+.text-footer{
+    padding: 10px;
+    font-size: 20;
+    text-align: center;
+    color: whitesmoke
+}
+
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 4%;
+    top: 9px;
+    display:none;
+}
+
+
+.line{
+    width: 30px;
+    background-color: white;
+    height:3px;
+    margin: 3px 1px;
+}
+
+.rightNav input{
+    width: 165px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+
+.rightNa input{
+    width: 200px;
+    border:3px solid rgb(92, 76, 76);
+    border-radius:7px;
+    padding : 0px 5px;
+    
+}
+
+
+@media only screen and (max-width:1140px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        height: 300px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+    .logo img{
+        width:60%;
+        border:2px solid white;
+        border-radius: 80px;
+    }
+    .nav-list li a{
+        font-size: 22px;
+        text-decoration:none;
+    }
+
+    .rightNav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .na{
+        flex-direction: column;
+    }
+    .navb{
+        height: 250px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+    .na li b{
+        font-size: 22px;
+        text-decoration:none;
+    }
+    .burger{
+        display:block;
+    }
+
+    .h-nav-resp{
+        max-height: 38px;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .v-class-resp{
+        opacity: 0;
+        display:none;
+    }
+
+    
+    .text-small{
+        text-align: center;
+    }
+    
+    .text-big{
+        text-align: center;
+    }
+    .paras{
+        padding:0px 0px
+    }
+
+
+    .bbtn-sm{
+        margin:10px;
+    }
+}
+
+
+
+@media only screen and (max-width:800px){
+    .thumbnil img{
+        width: 100%;
+        border: 4px solid black;
+        border-radius: 30px;
+    }
+    .rightNa input{
+        width:100px;
+        border:3px solid black;
+        border-radius:7px;
+        padding : 0px 5px;
+    
+    }
+    .navb{
+        height: 180px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+
+}
+
+
+@media only screen and (max-width:280px){
+    .secondHalf img{
+        margin-top:100px;
+        width:100px;
+        border: 2px solid black;
+        border-radius: 150px;
+        align-items: center;
+    }
+    .text-big{
+        font-size: 14px;
+    }
+    .text-small{
+        font-size: 10px;
+    }
+    .btn{
+        padding: 3px 6px;
+        margin: 7px 3px;
+        border: 2px solid whitesmoke;
+        border-radius: 100px;
+        font-size: 10px;
+        background: none;
+        color: white;
+        cursor: pointer;
+    }
+    .btn:hover{
+            padding: 2px 5px;
+            margin: 7px 3px;
+            border: 1px solid gray;
+            border-radius: 100px;
+            font-size: 10px;
+            background: none;
+            color: gray;
+            cursor: pointer;
+    }
+    .rightNa input{
+            width:50px;
+            border:3px solid black;
+            border-radius:7px;
+            padding : 0px 5px;
+        
+    }
+    .text-center{
+            font-size:26px;
+    }
+    .bt{
+        padding: 3px 6px;
+        margin: 7px 3px;
+        border: 2px solid whitesmoke;
+        border-radius: 100px;
+        font-size: 10px;
+        background: none;
+        color: white;
+        cursor: pointer;
+
+    }
+
+    .bt:hover{
+        padding: 3px 6px;
+        margin: 7px 3px;
+        border: 1px solid white;
+        border-radius: 100px;
+        font-size: 10px;
+        background: none;
+        color: gray;
+        cursor: pointer;
+
+    }
+}
+
+
+@media only screen and (max-width:175px){
+    .rightNa input{
+        width:30px;
+        border:3px solid black;
+        border-radius:7px;
+        padding : 0px 5px;
+    }
+    .bbtn-sm{
+        vertical-align: middle;
+        padding: 0px 4px;
+        border: 3px solid black;
+        border-radius: 100px;
+        font-size: 8px;
+        background: none;
+        color:black;
+        cursor: pointer;
+    }
+    .na li a{
+        font-size: 12px;
+        text-decoration:none;
+        color:white;
+    }
+
+    .para{
+        font-size: 9px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-height:565px){
+    .contact{
+        font-size: 28px;
+        background-color:black;
+        height:100vh;
+    }
+    
+}
+
+@media only screen and (max-height:490px){
+    .contact{
+        font-size: 28px;
+        background-color:black;
+        height:125vh;
+    }
+    
+}
+@media only screen and (max-height:392px){
+    .contact{
+        font-size: 28px;
+        background-color:black;
+        height:150vh;
+    }
+    .secondHalf img{
+        margin-top:100px;
+        width:170px;
+        border: 2px solid black;
+        border-radius: 150px;
+        align-items: center;
+    }
+    .text-big{
+        font-size: 20px;
+    }
+    .text-small{
+        font-size: 16px;
+    }
+    .btn{
+        padding: 3px 6px;
+        margin: 7px 3px;
+        border: 2px solid whitesmoke;
+        border-radius: 100px;
+        font-size: 14px;
+        background: none;
+        color: white;
+        cursor: pointer;
+    }
+    .btn:hover{
+            padding: 2px 5px;
+            margin: 7px 3px;
+            border: 1px solid gray;
+            border-radius: 100px;
+            font-size: 14px;
+            background: none;
+            color: gray;
+            cursor: pointer;
+    }
+    .rightNa input{
+            width:50px;
+            border:3px solid black;
+            border-radius:7px;
+            padding : 0px 5px;
+    }
+    
+}
+@media only screen and (max-height:325px){
+    .contact{
+        font-size: 28px;
+        background-color:black;
+        height:180vh;
+    }
+    .secondHalf img{
+        margin-top:100px;
+        width:100px;
+        border: 2px solid black;
+        border-radius: 150px;
+        align-items: center;
+    }
+    .text-big{
+        font-size: 18px;
+    }
+    .text-small{
+        font-size: 14px;
+    }
+    .btn{
+        padding: 3px 6px;
+        margin: 7px 3px;
+        border: 2px solid whitesmoke;
+        border-radius: 100px;
+        font-size: 10px;
+        background: none;
+        color: white;
+        cursor: pointer;
+    }
+    .btn:hover{
+            padding: 2px 5px;
+            margin: 7px 3px;
+            border: 1px solid gray;
+            border-radius: 100px;
+            font-size: 10px;
+            background: none;
+            color: gray;
+            cursor: pointer;
+    }
+    .rightNa input{
+            width:50px;
+            border:3px solid black;
+            border-radius:7px;
+            padding : 0px 5px;
+    }
+}
+
+@media only screen and (max-height:272px){
+    .contact{
+        font-size: 28px;
+        background-color:black;
+        height:210vh;
+    }
+    .h-nav-resp {
+        max-height: 20px;
+    }
+    .burger {
+        position: absolute;
+        cursor: pointer;
+        right: 4%;
+        top: 3px;
+    }
+
+    .line {
+        width: 20px;
+        background-color: white;
+        height: 2px;
+        margin: 2px 1px;
+    }
+}
+
+@media only screen and (max-height:233px){
+    .contact{
+        font-size: 28px;
+        background-color:black;
+        height:250vh;
+    }
+    
+}
+@media only screen and (max-height:195px){
+    .contact{
+        font-size: 28px;
+        background-color:black;
+        height:320vh;
+    }
+    
+}
+
