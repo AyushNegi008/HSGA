@@ -18,9 +18,18 @@
             <li><a href="#Contact">Contact</a></li>
         </ul>
         <div class="rightNav v-class-resp">
-            <input type="text"name="search"id="myInput" placeholder="Search"
-            onkeyup="searchYoutubers()">
+            <input id="searchbar" onkeyup="search_animal()" type="text"
+            name="search" placeholder="Search">
+            <span class="clear" onclick="document.getElementById
+            ('searchbar').value=''"></span>   
             <button class="btn btn-sm">Search</button>
+                <ol id='list' class="ol">
+                    <li class="animals"><a href="https://www.instagram.com/ayush_negi_008/"target="_blank">Ayush Negi</a></li>
+                    <li class="animals"><a href="https://ayushnegi008.github.io/HSGA.github.io/"target="_blank">HSGA</a></li>
+                    <li class="animals"><a href="https://www.youtube.com/"target="_blank">Youtube</a></li>        
+                    <li class="animals"><a href="instagram.com"target="_blank">instagram</a></li>
+                    <li class="animals"><a href="https://github.com/"target="_blank">github</a></li>    
+                </ol>
         </div>    
         <div class="burger">
             <div class="line"></div>
@@ -42,7 +51,7 @@
                     <a href="https://ayushnegi008.github.io/HSGA.github.io/"
                     target="_blank"class="btn"style="
                     padding-top:4px;">Subscibe</a>
-                    <a href="https://github.com/AyushNegi008" 
+                    <a href="https://www.instagram.com/ayush_negi_008/" 
                     target="_blank" class="btn" style="
                     padding-top: 4px;">Follow Me</a>
                 </div>
