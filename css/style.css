@@ -2,10 +2,52 @@
     margin:0;
     padding:0;
 }
+.ol{
+    width:20px;
+    color:#999;
+    margin-left: 17rem;
+    text-decoration: none;
+    display:none;
+} 
+.ol li a{
+    text-decoration:none;
+    color:#999;
+    font-size:18px;
+}
 
+.clear{
+    padding:0px 9px;
+    margin-right: 5px;
+    top:50%;
+    transform:translateY(-50%);
+    width: 15px;
+    height:15px;
+    cursor: pointer;
+    justify-content:center;
+    align-items: center; 
+}
+.clear::before{
+    margin-top:8px;
+    position:absolute;
+    content:'';
+    width: 2px;
+    height:15px;
+    background:#999;
+    transform: rotate(45deg);
+}
+.clear::after{
+    margin-top:8px;
+    position:absolute;
+    content:'';
+    width: 2px;
+    height:15px;
+    background:#999;
+    transform: rotate(315deg);
+}
 .html{
     scroll-behavior: smooth;
 }
+
 .logo{
     width: 25%;
     display: flex;
