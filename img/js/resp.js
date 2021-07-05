@@ -1,17 +1,23 @@
 burger = document.querySelector('.burger')
 navbar = document.querySelector('.navbar')
 navList = document.querySelector('.nav-list')
+
+
+burger.addEventListener('click',()=>{
+    navList.classList.toggle('v-class-resp');
+    navbar.classList.toggle('h-nav-resp');
+    
+
+})
+burger2 = document.querySelector('.burger2')
 rightNav = document.querySelector('.rightNav')
 
 
 
-burger.addEventListener('click',()=>{
+burger2.addEventListener('click',()=>{
     rightNav.classList.toggle('v-class-resp');
-    navList.classList.toggle('v-class-resp');
-    navbar.classList.toggle('h-nav-resp');
-
+   ; 
 })
-
 pocox = document.querySelector('.pocox')
 section = document.querySelector('.section')
 thumbnil = document.querySelector('.thumbnil')
@@ -31,6 +37,15 @@ sectiona = document.querySelector('.sectiona')
 thumbnila = document.querySelector('.thumbnila')
 paraa= document.querySelector('.paraa')
 
+
+
+pocoxa.addEventListener('click',()=>{
+    paraa.classList.toggle('v-a-resp');
+    thumbnila.classList.toggle('v-a-resp');
+    sectiona.classList.toggle('h-a-resp');
+
+})
+
 function search_animal() {
     let input = document.getElementById('searchbar').value
     input=input.toLowerCase();
@@ -45,11 +60,3 @@ function search_animal() {
         }
     }
 }
-
-pocoxa.addEventListener('click',()=>{
-    paraa.classList.toggle('v-a-resp');
-    thumbnila.classList.toggle('v-a-resp');
-    sectiona.classList.toggle('h-a-resp');
-
-})
-
