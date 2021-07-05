@@ -47,7 +47,6 @@
 .html{
     scroll-behavior: smooth;
 }
-
 .logo{
     width: 25%;
     display: flex;
@@ -66,6 +65,7 @@
     position: sticky;
     top: 0;
     cursor: pointer;
+    height:45px;
 }
 
 
@@ -430,9 +430,19 @@
 .burger{
     position: absolute;
     cursor: pointer;
+    left: 4%;
+    top: 9px;
+    display:none;
+}
+.burger2{
+    position: absolute;
+    cursor: pointer;
     right: 4%;
     top: 9px;
     display:none;
+}
+.color{
+    color:white;
 }
 .pocox{
     cursor: pointer;
@@ -497,6 +507,12 @@
 
 
 @media only screen and (max-width:1140px){
+    .rightNav input {
+        width: 68%;
+        border: 2px solid white;
+        border-radius: 5px;
+        padding: 0px 5px;
+    }
     .wrapper{
         margin-top: 30px;
         max-height: 370px;
@@ -525,11 +541,16 @@
     }
     .nav-list{
         flex-direction: column;
+
     }
+    
     .navbar{
-        height: 300px;
+        max-height: 315px;
+        height: 315px;
+        transition: all 0.8s ease-out;
         flex-direction: column;
-        transition: all 0.7s ease-out;
+        flex-direction: column-reverse;
+
     }
     .rightNa input{
         font-size: 17px;
@@ -550,7 +571,8 @@
     }
 
     .rightNav{
-        text-align: center;
+        width: 100%;
+        text-align:center;
     }
     #search{
         width: 100%;
@@ -567,9 +589,15 @@
         font-size: 22px;
         text-decoration:none;
     }
+
+    
     .burger{
         display:block;
     }
+    .burger2{
+        display:block;
+    }
+
 
     .h-nav-resp{
         max-height: 38px;
@@ -627,6 +655,12 @@
 
 
 @media only screen and (max-width:800px){
+    .rightNav input {
+        width: 44%;
+        border: 2px solid white;
+        border-radius: 5px;
+        padding: 0px 5px;
+    }
     .wrapper{
         margin-top: 27px;
         max-height: 233px;
@@ -700,9 +734,26 @@
     }
 
 }
+@media only screen and (max-width:389px){
+    .rightNav input {
+        width: 27%;
+        border: 2px solid white;
+        border-radius: 5px;
+        padding: 0px 5px;
+    }
+}
 
-
-@media only screen and (max-width:279px){
+@media only screen and (max-width:280px){
+    
+    .rightNav{
+        padding-top: 45px;
+    }
+    .rightNav input {
+        width: 37%;
+        border: 2px solid white;
+        border-radius: 5px;
+        padding: 0px 5px;
+    }
     .wrapper{
         margin-top: 20px;
         max-height: 125px;
@@ -799,6 +850,21 @@
 
 
 @media only screen and (max-width:175px){
+    .rightNav{
+        padding-top: 45px;
+    }
+    .rightNav input {
+        width: 70%;
+        border: 2px solid white;
+        border-radius: 5px;
+        padding: 0px 5px;
+    }
+    .btn-sm{
+        display:none;
+    }
+    .clear{
+        display:none;
+    }
     .wrapper{
         margin-top: 15px;
         max-height: 102px;
@@ -984,6 +1050,13 @@
         height: 2px;
         margin: 2px 1px;
     }
+    .burger2 {
+        position: absolute;
+        cursor: pointer;
+        right: 4%;
+        top: 3px;
+    }
+    
 }
 
 @media only screen and (max-height:233px){
