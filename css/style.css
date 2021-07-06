@@ -249,13 +249,13 @@
 .buttons a{
     text-decoration: none;
 }
-.btn-sm{
+.btnsm{
     padding: 0px 5px;
     font-size:14px;
     vertical-align: middle;
 }
 
-.btn-sm:hover{
+.btnsm:hover{
     padding: 0px 5px;
     font-size:14px;
     vertical-align: middle;
@@ -488,7 +488,7 @@
 }
 
 
-.rightNav input{
+.rightNav-input{
     width: 165px;
     border: 2px solid white;
     border-radius: 5px;
@@ -507,11 +507,12 @@
 
 
 @media only screen and (max-width:1140px){
-    .rightNav input {
+    .rightNavinput {
         width: 68%;
         border: 2px solid white;
         border-radius: 5px;
         padding: 0px 5px;
+        
     }
     .wrapper{
         margin-top: 30px;
@@ -573,6 +574,7 @@
     .rightNav{
         width: 100%;
         text-align:center;
+        transition: all 2s ease-out;
     }
     #search{
         width: 100%;
@@ -607,6 +609,15 @@
         max-width: 100%;
     }
     .v-class-resp{
+        opacity: 0;
+        display:none;
+    }
+    .va-class-resp{
+        height:1px;
+        max-width: 0px;
+        background-color: white;
+    }
+    .vb-class-resp{
         opacity: 0;
         display:none;
     }
@@ -655,7 +666,7 @@
 
 
 @media only screen and (max-width:800px){
-    .rightNav input {
+    .rightNavinput {
         width: 44%;
         border: 2px solid white;
         border-radius: 5px;
@@ -735,7 +746,7 @@
 
 }
 @media only screen and (max-width:389px){
-    .rightNav input {
+    .rightNavinput {
         width: 27%;
         border: 2px solid white;
         border-radius: 5px;
@@ -744,11 +755,10 @@
 }
 
 @media only screen and (max-width:280px){
-    
     .rightNav{
         padding-top: 45px;
     }
-    .rightNav input {
+    .rightNavinput {
         width: 37%;
         border: 2px solid white;
         border-radius: 5px;
@@ -853,13 +863,13 @@
     .rightNav{
         padding-top: 45px;
     }
-    .rightNav input {
+    .rightNavinput {
         width: 70%;
         border: 2px solid white;
         border-radius: 5px;
         padding: 0px 5px;
     }
-    .btn-sm{
+    .btnsm{
         display:none;
     }
     .clear{
