@@ -109,6 +109,11 @@
     border:2px solid black;
     border-radius:9px;
 }
+.rightNavinput{
+    border-radius:5px;
+    border:2px solid white;
+    
+}
 
 .background{
     background:rgb(0,0,0,0.7)url('../img/5.jpg');
