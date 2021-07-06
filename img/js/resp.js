@@ -11,12 +11,16 @@ burger.addEventListener('click',()=>{
 })
 burger2 = document.querySelector('.burger2')
 rightNav = document.querySelector('.rightNav')
-
+rightNavinput = document.querySelector('.rightNavinput')
+clear = document.querySelector('.clear')
+btnsm= document.querySelector('.btnsm')
 
 
 burger2.addEventListener('click',()=>{
-    rightNav.classList.toggle('v-class-resp');
-   ; 
+    rightNav.classList.toggle('va-class-resp');
+    rightNavinput.classList.toggle('vb-class-resp');
+    clear.classList.toggle('vb-class-resp');
+    btnsm.classList.toggle('vb-class-resp');
 })
 pocox = document.querySelector('.pocox')
 section = document.querySelector('.section')
