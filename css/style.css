@@ -109,12 +109,12 @@
     border:2px solid black;
     border-radius:9px;
 }
+
 .rightNavinput{
     border-radius:5px;
     border:2px solid white;
     
 }
-
 .background{
     background:rgb(0,0,0,0.7)url('../img/5.jpg');
     background-size:cover;
@@ -579,7 +579,7 @@
     .rightNav{
         width: 100%;
         text-align:center;
-        transition: all 2s ease-out;
+        transition: all 1.2s ease-out;
     }
     #search{
         width: 100%;
@@ -618,9 +618,10 @@
         display:none;
     }
     .va-class-resp{
-        height:1px;
+        height:0px;
         max-width: 0px;
-        background-color: white;
+
+        margin-left:215%;
     }
     .vb-class-resp{
         opacity: 0;
@@ -914,7 +915,7 @@
         align-items: center;
     }
     .rightNa input{
-        width:30px;
+        width:50px;
         border:3px solid black;
         border-radius:7px;
         padding : 0px 5px;
@@ -952,7 +953,7 @@
 
 
 
-@media only screen and (max-height:565px){
+@media only screen and (max-height:585px){
     .contact{
         font-size: 28px;
         background-color:black;
@@ -964,7 +965,7 @@
     
 }
 
-@media only screen and (max-height:490px){
+@media only screen and (max-height:510px){
     .contact{
         font-size: 28px;
         background-color:black;
@@ -975,7 +976,7 @@
     }
     
 }
-@media only screen and (max-height:392px){
+@media only screen and (max-height:412px){
     .contact{
         font-size: 28px;
         background-color:black;
@@ -983,7 +984,6 @@
     }
     
     .rightNa input{
-            width:50px;
             border:3px solid black;
             border-radius:7px;
             padding : 0px 5px;
@@ -993,7 +993,7 @@
     }
     
 }
-@media only screen and (max-height:325px){
+@media only screen and (max-height:345px){
     .contact{
         font-size: 28px;
         background-color:black;
@@ -1033,7 +1033,6 @@
             cursor: pointer;
     }
     .rightNa input{
-            width:50px;
             border:3px solid black;
             border-radius:7px;
             padding : 0px 5px;
@@ -1043,20 +1042,30 @@
     }
 }
 
-@media only screen and (max-height:272px){
+@media only screen and (max-height:292px){
+    .rightNav{
+        height: 30px;
+    }
+    .rightNavinput{
+        height:13px;
+    }
+    .btn{
+        height: 19px;
+        font-size: 8px;
+    }
     .contact{
         font-size: 28px;
         background-color:black;
         height:210vh;
     }
     .h-nav-resp {
-        max-height: 20px;
+        max-height: 30px;
     }
     .burger {
         position: absolute;
         cursor: pointer;
         right: 4%;
-        top: 3px;
+        top: 7.5px;
     }
 
     .line {
@@ -1069,12 +1078,12 @@
         position: absolute;
         cursor: pointer;
         right: 4%;
-        top: 3px;
+        top: 5px;
     }
     
 }
 
-@media only screen and (max-height:233px){
+@media only screen and (max-height:253px){
     .contact{
         font-size: 28px;
         background-color:black;
@@ -1085,7 +1094,7 @@
     }
     
 }
-@media only screen and (max-height:195px){
+@media only screen and (max-height:215px){
     .contact{
         font-size: 28px;
         background-color:black;
@@ -1096,7 +1105,7 @@
     }
     
 }
-@media only screen and (max-height:165px){
+@media only screen and (max-height:185px){
     .contact{
         font-size: 28px;
         background-color:black;
@@ -1106,7 +1115,7 @@
         height: 185vh
     }
 }
-@media only screen and (max-height:132px){
+@media only screen and (max-height:152px){
     .contact{
         font-size: 28px;
         background-color:black;
