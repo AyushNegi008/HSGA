@@ -1,14 +1,21 @@
 burger = document.querySelector('.burger')
 navbar = document.querySelector('.navbar')
 navList = document.querySelector('.nav-list')
+line = document.querySelector('.line')
+line2 = document.querySelector('.line2')
+
 
 
 burger.addEventListener('click',()=>{
     navList.classList.toggle('v-class-resp');
     navbar.classList.toggle('h-nav-resp');
-    
-
+    burger.classList.toggle('icon');
+    line.classList.toggle('top');
+    line2.classList.toggle('bootom');
 })
+
+
+
 burger2 = document.querySelector('.burger2')
 rightNav = document.querySelector('.rightNav')
 rightNavinput = document.querySelector('.rightNavinput')
