@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
 }
+
 .ol{
     width:20px;
     color:#999;
@@ -450,13 +451,27 @@
 .burger2{
     position: absolute;
     cursor: pointer;
-    right: 4%;
-    top: 9px;
+    right: 3%;
+    top: 7px;
     display:none;
 }
 .color{
-    color:white;
+    width: 17px;
+    height:17px;
+    border-radius:100px;
+    background-color:white;
+    
 }
+.line3{
+    width: 24px;
+    background-color: white;
+    height: 3px;
+    margin: -5px 1px;
+    transform: rotate(45deg);
+    
+}   
+
+
 .pocox{
     cursor: pointer;
     border:3px solid black;
@@ -794,6 +809,22 @@
         border-radius: 5px;
         padding: 0px 5px;
     }
+}
+@media only screen and (max-width:300px){
+    .color{
+        width: 16px;
+        height: 16px;
+        border-radius: 100px;
+        background-color: white;
+
+    }
+    .line3{
+        width: 22px;
+        background-color: white;
+        height: 3px;
+        margin: -5px 1px;
+        transform: rotate(45deg);
+    }   
 }
 
 @media only screen and (max-width:280px){
@@ -1140,7 +1171,20 @@
         right: 4%;
         top: 5px;
     }
-    
+    .color{
+        width: 15px;
+        height: 15px;
+        border-radius: 100px;
+        background-color: white;
+
+    }
+    .line3{
+        width: 20px;
+        background-color: white;
+        height: 3px;
+        margin: -5px 1px;
+        transform: rotate(45deg);
+    }   
 }
 
 @media only screen and (max-height:253px){
