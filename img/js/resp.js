@@ -21,6 +21,7 @@ rightNav = document.querySelector('.rightNav')
 rightNavinput = document.querySelector('.rightNavinput')
 clear = document.querySelector('.clear')
 btnsm= document.querySelector('.btnsm')
+color2 = document.querySelector('.color2')
 
 
 burger2.addEventListener('click',()=>{
@@ -28,6 +29,9 @@ burger2.addEventListener('click',()=>{
     rightNavinput.classList.toggle('vb-class-resp');
     clear.classList.toggle('vb-class-resp');
     btnsm.classList.toggle('vb-class-resp');
+    color2.classList.toggle('no');
+
+
 })
 pocox = document.querySelector('.pocox')
 section = document.querySelector('.section')
