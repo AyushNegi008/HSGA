@@ -453,6 +453,7 @@
     cursor: pointer;
     right: 3%;
     top: 7px;
+    height: 24px;
     display:none;
 }
 .color{
@@ -462,6 +463,7 @@
     background-color:white;
     
 }
+
 .line3{
     width: 24px;
     background-color: white;
@@ -470,6 +472,22 @@
     transform: rotate(45deg);
     
 }   
+.color2 {
+    width: 17px;
+    background-color: black;
+    height: 4px;
+    margin: -9px 0px;
+    transform: rotate(-5deg);
+    transition: all 0.5s ease-in;
+}
+
+.no{
+    height: 0px;
+    width: 0px;
+    transition: all 0.5s linear;
+    transform: rotate(447deg);
+    margin: -7px 8px;
+}
 
 
 .pocox{
@@ -544,7 +562,7 @@
 }
 
 
-.rightNav-input{
+.rightNavinput{
     width: 165px;
     border: 2px solid white;
     border-radius: 5px;
@@ -639,7 +657,6 @@
         flex-direction: column;
     }
     .navb{
-        height: 250px;
         flex-direction: column;
         transition: all 0.7s ease-out;
     }
@@ -773,7 +790,6 @@
     
     }
     .navb{
-        height: 180px;
         flex-direction: column;
         transition: all 0.7s ease-out;
     }
@@ -825,6 +841,21 @@
         margin: -5px 1px;
         transform: rotate(45deg);
     }   
+    .color2 {
+        width: 17px;
+        background-color: black;
+        height: 4px;
+        margin: -8px 0px;
+        transform: rotate(-5deg);
+        transition: all 0.5s ease-in;
+    }
+    .no{
+        height: 0px;
+        width: 0px;
+        transition: all 0.5s linear;
+        transform: rotate(447deg);
+        margin: -6px 7px;
+    }
 }
 
 @media only screen and (max-width:280px){
@@ -935,6 +966,7 @@
 @media only screen and (max-width:175px){
     .rightNav{
         padding-top: 45px;
+        padding-bottom: 2px;
     }
     .rightNavinput {
         width: 70%;
@@ -1139,6 +1171,7 @@
         cursor: pointer;
         right: 4%;
         top: 9px;
+        width: 22px;
     }
 
     .line {
@@ -1185,6 +1218,21 @@
         margin: -5px 1px;
         transform: rotate(45deg);
     }   
+    .color2 {
+        width: 17px;
+        background-color: black;
+        height: 3px;
+        margin: -7px 0px;
+        transform: rotate(-5deg);
+        transition: all 0.5s ease-in;
+    }
+    .no{
+        height: 0px;
+        width: 0px;
+        transition: all 0.5s linear;
+        transform: rotate(447deg);
+        margin: -6px 7px;
+    }
 }
 
 @media only screen and (max-height:253px){
