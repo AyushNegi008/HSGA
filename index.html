@@ -69,15 +69,35 @@
 
     <nav class="navb background2">
         <ul class="na">  
-            <li><a href="https://ayushnegi008.github.io/HSGA-tech-Mobiles/">Mobiles</a></li>
-            <li><a href="https://ayushnegi008.github.io/HSGA-tech-Compare/">Compare</a></li>
-            <li><a href="#Music">Music</a></li>
-            <li><a href="https://ayushnegi008.github.io/HSGA-tech-Tablet/">Tablets</a></li>
-            <li><a href="https://ayushnegi008.github.io/HSGA-tech-Laptops/">Laptops</a></li>
-            <li><a href="https://ayushnegi008.github.io/HSGA-tech-Desktops/">Desktops</a></li>
-            <li><a href="https://ayushnegi008.github.io/HSGA-tech-Projectors/">Projectors</a></li>
-            <li><a href="https://ayushnegi008.github.io/HSGA-tech-Cars/">Cars</a></li>
-            <li><a href="https://ayushnegi008.github.io/HSGA-tech-Cameras/">Cameras</a></li>
+            <li><a href="https://ayushnegi008.github.io/HSGA-tech-Mobiles/"><img src="img/mobile.jpg" class="mobile"
+            style="
+                width: 41px;
+            ">Mobiles</a></li>
+            <li><a href="https://ayushnegi008.github.io/HSGA-tech-Compare/"><img src="img/compare.png" class="compare"style="
+                width: 57px;
+            ">Compare</a></li>
+            <li><a href="#Music"><img src="img/music.jpg" class="music" style="
+                width: 59px;
+            ">Music</a></li>
+        </ul>    
+        <ul class="na">
+            <li><a href="https://ayushnegi008.github.io/HSGA-tech-Tablet/"><img src="img/tablet.jpg" class="tablet">Tablets</a></li>
+            <li><a href="https://ayushnegi008.github.io/HSGA-tech-Laptops/"><img src="img/laptop.jpg" class="laptop" style="
+                width: 68px;
+            ">Laptops</a></li>
+            <li><a href="https://ayushnegi008.github.io/HSGA-tech-Desktops/"><img src="img/desktop.jpg" class="desktop"
+            style="
+                width: 68px;
+            ">Desktops</a></li>
+        </ul>
+        <ul class="na">
+            <li><a href="https://ayushnegi008.github.io/HSGA-tech-Projectors/"><img src="img/projector.jpg" class="projector" style="
+                width: 60px;
+            ">Projectors</a></li>
+            <li><a href="https://ayushnegi008.github.io/HSGA-tech-Cars/"><img src="img/car.jpg" class="car">Cars</a></li>
+            <li><a href="https://ayushnegi008.github.io/HSGA-tech-Cameras/"><img src="img/camera.jpg" class="camera" style="
+                width: 62px;
+            ">Cameras</a></li>
         </ul>
     </nav>
 <hr>
@@ -86,37 +106,42 @@
 
 
 <br id="Compare">
-<br>
-<br>
 
 
-    <div class="paras" >
-        <p class="text-big">Compare
-        </p>
+
+<section class="wraps" >
+<p class="text-big2">Let's find the best Mobile in your budget...</p>
+<div class= "wrap">
+    <div class="wr">
+        <div class="slidecontainer text-small2">
+            <input type="range" min="1"  max="150" value="20" class="slider" id="myRange">
+            <p>Max Price in K: <span id="demo"></span>k</p>
+        </div>
+        <script>
+            var slider = document.getElementById("myRange");
+            var output = document.getElementById("demo");
+            output.innerHTML = slider.value;
+          
+            slider.oninput = function() {
+            output.innerHTML = this.value;
+            }
+        </script>
+        <p class="text-small2">Best Phone/</p>
+        <img class="img" src="img/pocox3pro.webp">
     </div>
-<br>
-<br>
-<br>
-<br>
-    <section class="section section-left" >
-        <div class="rightNa">
-            <input type="text"name="search"id="myInput" placeholder="Search"
-            onkeyup="searchYoutubers()">
-            <button class="bbtn-sm">Search</button>
-        </div>  
-        <div class="rightNa">
-            <input type="text"name="search"id="myInput" placeholder="Search"
-            onkeyup="searchYoutubers()">
-            <button class="bbtn-sm">Search</button>
-        </div> 
-    </section>
+    <div class="wra">
+        <p class="text-small2">Top 5 Mobiles</p><hr>
+        <p class="box"></p>
+        <p class="box"></p>
+        <p class="box"></p>
+        <p class="box"></p>
+        <p class="box"></p>
+    </div>
+</div>
+</section>
 
 
-<br>    
-<br>
-<br>
-<br>
-<br>
+
 <br>
 <br>
 <br>
@@ -162,7 +187,7 @@
 
     <footer class ="background">
         <p class="text-footer">
-            Copyright &copy; 2027 - All rights reserved
+            Copyright &copy; 2021 - All rights reserved
         </p>
     </footer>  
 
