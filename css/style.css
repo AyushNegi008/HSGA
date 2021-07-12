@@ -139,20 +139,42 @@
 
 .na li{
     list-style: none;
-    padding: 12px 35px;
+    padding: 12px 22px;
 }
-
 
 .na li a{
     font-size: 18px;
     text-decoration:none;
     color:white;
+    text-align: center;
+    width:93px;
 }
 
 .na li a:hover{
     text-decoration:none;
     color:gray;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-radius:12px;
 }
+.na li a img{
+    height:69px;
+}
+.car{
+    width:115px;
+}
+.car:hover{
+    width:93px;
+    border-radius: 12px;
+    
+}
+
+
+.na li{
+    display: flex;
+    flex-direction: column;
+}
+
 .background2{
     background:black URL(../img/8.jpeg);
     background-size:cover;
@@ -331,6 +353,103 @@
 .paras{
     color:hsl(300, 76%, 13%);
 }
+
+
+
+.wraps{
+    padding: 2px;
+    height:100%;
+    width:80%;
+    background-color: black;
+    margin-left:10%;
+    margin-right: 10%;
+    border-radius: 15px;
+    flex-direction: row;
+}
+.wr{
+    width:65%;
+}
+.text-big2{
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+.text-small2{
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+.slidecontainer {
+    width: 90%;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 101%;
+    height: 10px;
+    border-radius: 5px;
+    background: white;
+    outline: none;
+    
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border: 0;
+    background: silver;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border: 0;
+    background: silver;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .img{
+      width: 56%;
+      border-top: 1px solid white;
+      border-bottom: 1px solid white;
+      border-radius: 10px;
+      margin-left: 1%;
+  }
+  .wra{
+      background-color: black;
+      border: 1px solid white;
+      border-radius: 15px;
+      width:35%;
+      text-align: center;
+      margin:3px;
+  }
+  .wrap{
+    display: flex;
+  }
+  .box{
+      height:14%;
+      width:80%;
+      background-color:white;
+      margin-left: 10%;
+      margin-right: 10%;
+      border-radius: 7px; 
+      margin-top:2.5%
+  }
+  
+
+
+
+  
+
 .wrapper{
     margin-top: 30px;
     max-height: 370px;
@@ -578,7 +697,12 @@
     padding : 0px 5px;
     
 }
-
+@media only screen and (max-width:1242px){
+    .na li {
+        list-style: none;
+        padding: 12px 16px;
+    }
+}
 
 @media only screen and (max-width:1140px){
     .rightNavinput {
@@ -588,6 +712,8 @@
         padding: 0px 5px;
         
     }
+        
+  
     .wrapper{
         margin-top: 30px;
         max-height: 370px;
@@ -656,8 +782,12 @@
     .na{
         flex-direction: column;
     }
+    .na li {
+        list-style: none;
+        padding: 12px 85px;
+    }
     .navb{
-        flex-direction: column;
+        flex-direction: row;
         transition: all 0.7s ease-out;
     }
     .na li b{
@@ -740,11 +870,39 @@
 
 
 @media only screen and (max-width:800px){
+    .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 20px;
+        height: 20px;
+        border: 0;
+        background: silver;
+        cursor: pointer;
+        border-radius: 3px;
+      }
+      
+      .slider::-moz-range-thumb {
+        width: 20px;
+        height: 20px;
+        border: 0;
+        background: silver;
+        cursor: pointer;
+        border-radius: 3px;
+      }
     .rightNavinput {
         width: 44%;
         border: 2px solid white;
         border-radius: 5px;
         padding: 0px 5px;
+    }
+    .box{
+        height:13%;
+        width:80%;
+        background-color:white;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-radius: 7px; 
+        margin-bottom: 3.2%
     }
     .wrapper{
         margin-top: 27px;
@@ -790,8 +948,12 @@
     
     }
     .navb{
-        flex-direction: column;
+        flex-direction: row;
         transition: all 0.7s ease-out;
+    }
+    .na li {
+        list-style: none;
+        padding: 12px 57px;
     }
     .bbtn-sm{
         height: 23px;
@@ -818,6 +980,66 @@
     }
 
 }
+@media only screen and (max-width:623px){
+    .na li {
+        list-style: none;
+        padding: 12px 45px;
+    }
+}
+@media only screen and (max-width:560px){
+    .text-big2{
+        color: white;
+        font-size: 16px;
+        padding: 10px;
+        text-align: center;
+    }
+    .text-small2{
+        color: white;
+        font-size: 12px;
+        padding: 10px;
+    }
+    .slider {
+        -webkit-appearance: none;
+        width: 101%;
+        height: 7px;
+        border-radius: 5px;
+        background: white;
+        outline: none;
+    }
+    .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 15px;
+        height: 15px;
+        border: 0;
+        background: silver;
+        cursor: pointer;
+        border-radius: 3px;
+      }
+      
+      .slider::-moz-range-thumb {
+        width: 15px;
+        height: 15px;
+        border: 0;
+        background: silver;
+        cursor: pointer;
+        border-radius: 3px;
+      }
+      .na li {
+        list-style: none;
+        padding: 12px 30px;
+    }
+}
+@media only screen and (max-width:461px){
+    .na li {
+        list-style: none;
+        padding: 12px 17px;
+    }
+    .car{
+        width:100px;
+    }
+}
+
 @media only screen and (max-width:389px){
     .rightNavinput {
         width: 27%;
@@ -825,8 +1047,40 @@
         border-radius: 5px;
         padding: 0px 5px;
     }
+    .na li {
+        list-style: none;
+        padding: 12px 8px;
+    }
+}
+@media only screen and (max-width:332px){
+    .wraps {
+        padding: 2px;
+        height: 100%;
+        width: 97%;
+        background-color: black;
+        margin-left: 1%;
+        margin-right: 1%;
+        border-radius: 15px;
+        flex-direction: row;
+    }
+    .text-small2{
+        color: white;
+        font-size: 10px;
+        padding: 10px;
+    }
+    .na li {
+        list-style: none;
+        padding: 12px 1px;
+    }
 }
 @media only screen and (max-width:300px){
+    .na li {
+        list-style: none;
+        padding: 12px 0px;
+    }
+    .car{
+        width: 92px;
+    }
     .color{
         width: 16px;
         height: 16px;
@@ -857,7 +1111,14 @@
         margin: -6px 7px;
     }
 }
-
+@media only screen and (max-width:290px){
+    
+    .text-small2{
+        color: white;
+        font-size: 9px;
+        padding: 10px;
+    }
+}
 @media only screen and (max-width:280px){
     .rightNav{
         padding-top: 45px;
@@ -961,8 +1222,24 @@
 
     }
 }
+@media only screen and (max-width:279px){
+    .navb{
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+}
 
-
+@media only screen and (max-width:239px){
+    .wra {
+        background-color: black;
+        border: 1px solid white;
+        border-radius: 15px;
+        width: 35%;
+        height: 150px;
+        text-align: center;
+        margin: 3px;
+    }
+}
 @media only screen and (max-width:175px){
     .rightNav{
         padding-top: 45px;
@@ -1033,6 +1310,10 @@
         font-size: 12px;
         text-decoration:none;
         color:white;
+        width:80px;
+    }
+    .car{
+        width:107px;
     }
 
     .para{
