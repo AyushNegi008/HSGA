@@ -889,6 +889,16 @@
         cursor: pointer;
         border-radius: 3px;
       }
+      .wraps {
+        padding: 2px;
+        height: 100%;
+        width: 97.5%;
+        background-color: black;
+        margin-left: 1%;
+        margin-right: 1%;
+        border-radius: 15px;
+        flex-direction: row;
+    }
     .rightNavinput {
         width: 44%;
         border: 2px solid white;
