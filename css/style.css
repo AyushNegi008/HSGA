@@ -1237,6 +1237,9 @@
         flex-direction: column;
         transition: all 0.7s ease-out;
     }
+    .car{
+        width: 115px;
+    }
 }
 
 @media only screen and (max-width:239px){
